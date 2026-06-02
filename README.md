@@ -1,41 +1,38 @@
-# 🚀 Destify – Smart Travel Itinerary & Budget Planner
+# Destify Travel Planner
 
-**Destify** is your intelligent travel companion that helps you craft optimized travel itineraries based on your **budget, preferences, and location**. Whether you're planning a road trip or a weekend getaway, Destify helps you explore efficiently by integrating **food spots, fuel stations, hotels**, and more directly into your journey.
+Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots.
 
----
+## Key Features
+- Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots
+- Supabase integration is called out for the data, auth, or application state layer present in the codebase.
+- Package scripts provide reproducible development, build, and preview commands.
 
-## ✨ Features
+## Tech Stack
+- JavaScript/TypeScript
+- React
+- Vite
+- Tailwind CSS
+- Supabase
+- HTML/CSS
 
-- 🧠 **Smart Itinerary Generator**  
-  Enter your destination, budget, and interests — Destify calculates the best possible route.
+## Project Structure
+- src/app or app - application routes, screens, and layout files.
+- public / assets - static images, icons, manifests, and visual assets.
 
-- 🗺️ **Real-Time Path Optimization**  
-  Automatically adjust your trip with optimized routes, avoiding congestion and unnecessary detours.
+## Setup and Run
+```bash
+git clone https://github.com/theadhithyankr/destify-travel-planner.git
+cd destify-travel-planner
+npm install
+npm run dev
+npm run build
+npm run preview
+```
 
-- 🍴 **Food & Restaurant Discovery**  
-  Find the best-rated local food spots en route, from hidden gems to budget-friendly options.
+## What This Project Demonstrates
+- Building user-facing web applications with component-based UI and modern frontend tooling.
+- Integrating managed backend services for auth, persistence, realtime data, or app infrastructure.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-- 🛏️ **Hotel and Stay Recommendations**  
-  View hotel options along your path with filters for budget, rating, and amenities.
-
-- ⛽ **Utility Mapping**  
-  Locate nearby **petrol pumps, EV charging stations, restrooms**, and more on the go.
-
-- 💸 **Budget Monitoring**  
-  Stay within your trip budget with real-time cost tracking and suggestions.
-
-- 🔐 **User Profiles & Preferences**  
-  Save preferences and allow the app to personalize trips for future travels.
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend:** React + Vite  
-- **Styling:** CSS  
-- **Routing:** React Router (optional)  
-- **State Management:** React Context / Redux (if used)  
-- **Backend & Auth:** Firebase (planned)  
-- **Maps API:** Google Maps or Mapbox (coming soon)
-
-
+## Repository
+- GitHub: https://github.com/theadhithyankr/destify-travel-planner
