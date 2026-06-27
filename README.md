@@ -14,7 +14,7 @@ Travel planning app for shaping trips, destinations, and itineraries.
 
 Destify Travel Planner is a travel planning project in the TheAdhithyanKR/destify-travel-planner repository. Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is `package.json`, and the commands below are taken from its scripts.
 
 ## Key Features
 
