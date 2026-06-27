@@ -1,38 +1,69 @@
+<div align="center">
+
 # Destify Travel Planner
 
-Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots.
+Travel planning app for shaping trips, destinations, and itineraries.
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/destify-travel-planner)
+
+</div>
+
+## Overview
+
+Destify Travel Planner is a travel planning project in the TheAdhithyanKR/destify-travel-planner repository. Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- Travel planner that builds itineraries around budget, preferences, routes, hotels, fuel stops, and food spots
-- Supabase integration is called out for the data, auth, or application state layer present in the codebase.
-- Package scripts provide reproducible development, build, and preview commands.
+
+- Destination and itinerary planning workflow
+- Trip-oriented interface for comparing travel ideas
+- Frontend structure for an interactive planning experience
+- Portfolio-ready travel product concept
 
 ## Tech Stack
-- JavaScript/TypeScript
-- React
+
 - Vite
+- React
 - Tailwind CSS
 - Supabase
-- HTML/CSS
 
 ## Project Structure
-- src/app or app - application routes, screens, and layout files.
-- public / assets - static images, icons, manifests, and visual assets.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/destify-travel-planner.git
-cd destify-travel-planner
+`	ext
+.
+|-- eslint.config.js
+|-- index.html
+|-- package.json
+|-- package-lock.json
+|-- public/vite.svg
+|-- README.md
+|-- src/App.css
+|-- src/App.jsx
+|-- src/AuthPage.jsx
+|-- src/HomePage.jsx
+|-- src/index.css
+|-- src/main.jsx
+|-- src/supabaseClient.js
+|-- vite.config.js
+`
+
+## Setup
+
+`ash
 npm install
 npm run dev
-npm run build
-npm run preview
-```
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Integrating managed backend services for auth, persistence, realtime data, or app infrastructure.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/destify-travel-planner
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around travel planning
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/destify-travel-planner](https://github.com/theadhithyankr/destify-travel-planner)
